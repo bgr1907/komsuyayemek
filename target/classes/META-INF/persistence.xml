@@ -7,12 +7,19 @@ version="2.1">
 	<persistence-unit name="EmployeePersistenceUnit"
 		transaction-type="RESOURCE_LOCAL">
 		
-		<class>model.Employee</class>
+		<class>model.Addresses</class>
+		<class>model.Cart</class>  
+		<class>model.CartMeals</class>  
+		<class>model.Comments</class>  
+		<class>model.Favorites</class>  
+		<class>model.MealHistory</class>  
+		<class>model.Posts</class>  
+		<class>model.Users</class>    
 		
 		<properties>
 				
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jsf.jpa.schema" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/komsuyaYemek.schema" />
 			<property name="javax.persistence.jdbc.user" value="root" />
 			<property name="javax.persistence.jdbc.password" value="38ahmet38" />
 			
