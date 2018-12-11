@@ -1,8 +1,8 @@
 package model;
 
-import javax.persistence.Entity;
 
-@Entity
+
+
 public class Favorites {
 	private Users userID;
 	private Users profileID;

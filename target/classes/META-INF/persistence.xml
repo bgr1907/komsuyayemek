@@ -7,14 +7,14 @@ version="2.1">
 	<persistence-unit name="EmployeePersistenceUnit"
 		transaction-type="RESOURCE_LOCAL">
 		
-		<class>model.Addresses</class>
+		<!--  <class>model.Addresses</class>
 		<class>model.Cart</class>  
 		<class>model.CartMeals</class>  
 		<class>model.Comments</class>  
 		<class>model.Favorites</class>  
 		<class>model.MealHistory</class>  
 		<class>model.Posts</class>  
-		<class>model.Users</class>    
+		<class>model.Users</class>   --> 
 		
 		<properties>
 				
